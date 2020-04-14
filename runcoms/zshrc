@@ -8,6 +8,8 @@ fi
 autoload -U compinit
 compinit
 
+eval $(thefuck --alias)
+
 source $zplug_home/init.zsh
 
 zplug romkatv/powerlevel10k, as:theme, depth:1
