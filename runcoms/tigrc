@@ -1,0 +1,1 @@
+bind generic B @sh -c "source ~/.files/modules/ghop.zsh; ghop %(commit)"

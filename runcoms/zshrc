@@ -30,4 +30,4 @@ fi
 
 zplug load
 
-source $dotfiles_home/p10k.zsh
+source $dotfiles_home/p10k_config/p10k.zsh
