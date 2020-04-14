@@ -37,9 +37,8 @@ zinit lucid depth=1 wait'0' light-mode for \
     zinit-zsh/z-a-as-monitor \
     zinit-zsh/z-a-bin-gem-node \
     zsh-users/zsh-autosuggestions \
-    zdharma/fast-syntax-highlighting
-
-zinit ice lucid depth=1 wait'0'; zinit light zsh-users/zsh-history-substring-search
+    zdharma/fast-syntax-highlighting \
+    zsh-users/zsh-history-substring-search
 
 zinit lucid wait'0' is-snippet for \
     $dotfiles_home/modules/config.zsh \
