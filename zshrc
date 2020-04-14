@@ -11,6 +11,7 @@ source $ZPLUG_HOME/init.zsh
 
 zplug romkatv/powerlevel10k, as:theme, depth:1
 
+zstyle ':prezto:*:*' color 'yes'
 zplug "modules/history", from:prezto
 zplug "modules/utility", from:prezto
 zplug "modules/directory", from:prezto
