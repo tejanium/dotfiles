@@ -1,4 +1,4 @@
 ```bash
-git clone https://github.com/tejanium/dotsh ~/.sh
-ln -s ~/.sh/zshrc ~/.zshrc
+git clone https://github.com/tejanium/dotfiles ~/.files
+ln -s ~/.files/zshrc ~/.zshrc
 ```
