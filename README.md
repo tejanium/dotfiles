@@ -1,4 +1,4 @@
 ```bash
-git clone https://github.com/tejanium/dotfiles ~/.files
+git clone git@github.com:tejanium/dotfiles.git ~/.files
 .files/installer.zsh
 ```
