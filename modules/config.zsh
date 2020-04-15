@@ -1,7 +1,3 @@
-# History substring
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
-
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
