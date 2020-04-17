@@ -62,6 +62,9 @@ zinit light zdharma/history-search-multi-word
 zinit ice depth=1 wait lucid
 zinit light MichaelAquilina/zsh-you-should-use
 
+# Thefuck!
+zinit ice depth=1 wait lucid
+zinit light laggardkernel/zsh-thefuck
 
 # Git
 zinit ice depth=1 wait lucid
