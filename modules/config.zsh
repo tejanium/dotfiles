@@ -8,4 +8,4 @@ source "$HOME/.asdf/asdf.sh"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export PATH="/usr/local/opt/node@10/bin:$PATH"
+# export PATH="/usr/local/opt/node@10/bin:$PATH"

@@ -1,1 +1,18 @@
-irb.conf[:AUTO_INDENT] = true
+begin
+  require "rubygems"
+  require "pry"
+  require "irb/completion"
+  require "irb/ext/save-history"
+rescue LoadError # rubocop:disable Lint/SuppressedException
+end
+
+if defined?(Pry)
+  Pry.start
+  exit
+else
+  IRB.conf[:SAVE_HISTORY] = 2000
+  IRB.conf[:AUTO_INDENT]  = true
+  IRB.conf[:USE_READLINE] = true
+  IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
+end
+
