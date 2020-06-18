@@ -8,10 +8,6 @@ source "$HOME/.asdf/asdf.sh"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-# export PATH="/usr/local/opt/node@10/bin:$PATH"
-
-# Plugins
-zstyle ':prezto:*:*' color 'yes'
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
@@ -29,4 +25,5 @@ else
 fi;
 
 # Utils
-export EDITOR='vim'
+export EDITOR=vim
+export NEXTWORD_DATA_PATH=$HOME/Documents/nextword-data-large
