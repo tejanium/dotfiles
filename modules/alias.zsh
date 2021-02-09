@@ -7,4 +7,5 @@ alias gprune='gco master && git pull && comm -12 <(git branch | sed "s/ *//g") <
 alias rspec='spring rspec'
 alias ss='spring stop'
 alias bi='bundle install'
-alias brewup='brew update && brew upgrade && cask upgrade && brew cleanup'
+alias be='bundle exec'
+alias brewup='brew update && brew upgrade && brew upgrade --cask && brew cleanup'
