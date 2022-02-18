@@ -10,11 +10,14 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
-bindkey -M vicmd 'k' history-substring-search-up
-bindkey -M vicmd 'j' history-substring-search-down
-
+function zvm_before_init() {
+  zvm_bindkey viins '^[[A' history-substring-search-up
+  zvm_bindkey viins '^[[B' history-substring-search-down
+  zvm_bindkey vicmd '^[[A' history-substring-search-up
+  zvm_bindkey vicmd '^[[B' history-substring-search-down
+	zvm_bindkey vicmd 'k' history-substring-search-up
+  zvm_bindkey vicmd 'j' history-substring-search-down
+}
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=10
 
 # Completion

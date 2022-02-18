@@ -19,8 +19,8 @@ antibody bundle << EOF
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-autosuggestions
   zsh-users/zsh-completions
-  zdharma/fast-syntax-highlighting
-  zdharma/history-search-multi-word
+  zdharma-continuum/fast-syntax-highlighting
+  zdharma-continuum/history-search-multi-word
   MichaelAquilina/zsh-you-should-use
   laggardkernel/zsh-thefuck
 
