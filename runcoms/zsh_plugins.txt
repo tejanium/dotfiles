@@ -1,0 +1,16 @@
+jeffreytse/zsh-vi-mode
+
+sorin-ionescu/prezto
+sorin-ionescu/prezto path:modules/history
+sorin-ionescu/prezto path:modules/directory
+sorin-ionescu/prezto path:modules/utility
+
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+zdharma-continuum/fast-syntax-highlighting
+zdharma-continuum/history-search-multi-word
+MichaelAquilina/zsh-you-should-use
+laggardkernel/zsh-thefuck
+
+romkatv/powerlevel10k
