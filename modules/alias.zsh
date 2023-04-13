@@ -6,5 +6,5 @@ alias gprune='gco main && git pull && comm -12 <(git branch | sed "s/ *//g") <(g
 alias ss='spring stop'
 alias bi='bundle install'
 alias be='bundle exec'
-alias brewup='brew update && brew upgrade && brew upgrade --cask && brew cleanup'
+alias brewup='brew update && brew upgrade && brew upgrade --cask && brew autoremove && brew cleanup'
 alias unl='ss && docker-compose down && docker-compose up -d'
