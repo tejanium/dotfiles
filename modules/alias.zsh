@@ -1,7 +1,6 @@
 alias gst='git status'
 alias gco='git checkout'
 alias cat=ccat
-alias brew='envchain brew brew'
 alias gprune='gco main && git pull && comm -12 <(git branch | sed "s/ *//g") <(git remote prune origin | sed "s/^.*origin\///g") | xargs -L1 -J % git branch -D %'
 alias ss='spring stop'
 alias bi='bundle install'
