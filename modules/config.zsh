@@ -27,4 +27,3 @@ fi;
 
 # Utils
 export EDITOR=vim
-export NEXTWORD_DATA_PATH=$HOME/Documents/nextword-data-large
